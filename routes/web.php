@@ -2,7 +2,5 @@
 
 
 Route::resource('home','HomeController');
+Route::resource('client','ClientController');
 
-Route::get('login', function(){
-	return view('auth.login');
-});

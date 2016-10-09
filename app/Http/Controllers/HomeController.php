@@ -14,7 +14,7 @@ class HomeController extends Controller
     	$data['name'] 	= 'dika';
     	$data['age'] 	= 26;
 
-    	return view('index' , compact('data'));
+    	return view('backend.home.index' , compact('data'));
 
     }
     public function create()
